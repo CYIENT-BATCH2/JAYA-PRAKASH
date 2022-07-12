@@ -1,0 +1,19 @@
+Start
+Declare five valribles B1,B2,B3,B4,B5
+Read five inputs from user
+Check if B1 mod 2 is equal to zero
+then print B1 is even
+else Print B1 is odd
+Check if B2 mod 2 is equal to zero
+then print B2 is even
+else Print B2 is odd
+Check if B3 mod 2 is equal to zero
+then print B3 is even
+else Print B3 is odd
+Check if B4 mod 2 is equal to zero
+then print B4 is even
+else Print B4 is odd
+Check if B5 mod 2 is equal to zero
+then print B5 is even
+else Print B5 is odd
+Stop
