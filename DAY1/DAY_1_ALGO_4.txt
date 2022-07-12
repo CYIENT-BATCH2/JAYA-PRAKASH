@@ -1,0 +1,10 @@
+Start
+Read six digit number from the user
+Check the number is within the range (n>111111 and n<999999)
+Check if number > 0 enter to loop
+and check 	j=j*10+n%10;
+        	n=n/10;
+        	if(n>0)
+continue the loop till n becomes 0
+then print reverse number 
+Stop
