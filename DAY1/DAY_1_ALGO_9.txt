@@ -1,0 +1,6 @@
+Start
+Read the inputs from user
+perform logical AND operation
+perform logical OR operation
+perform logical NOT operation
+StoP
