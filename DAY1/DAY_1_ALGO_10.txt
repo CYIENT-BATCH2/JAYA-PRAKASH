@@ -1,0 +1,9 @@
+Start
+Read the weights of three person a,b,c
+check weather a>b && a>c
+print weight of person a is greater
+check weather b>a && b>c
+print weight of person b is greater
+check weather c>a && c>b
+print weight of person c is greater
+Sto
