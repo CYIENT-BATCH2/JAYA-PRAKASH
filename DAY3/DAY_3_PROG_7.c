@@ -1,16 +1,26 @@
-#include <stdio.h>
-
-int main() {
-    int y,m,m2;
-     printf("enter year and month ");
-scanf("%d",&y);
-scanf("%d",&m);
-if(y<=2022&&m>0&&m<=12)
+#include<stdio.h>
+int main()
 {
-    
-if((7-m)<0)
-y+=1;;
-m2=(12+7)-m;
-      printf("%d %d",2022-y,m2);
-}
+	int age_year,month;
+	int birth_year,birth_month;
+	int current_year,current_month;
+	printf("enter birth year and month\n");
+	scanf("%d%d",&birth_month,&birth_year);
+	printf("enter current year and month\n");
+	scanf("%d%d",&current_month,&current_year);
+	if(birth_month>current_month)
+	{
+    age_year=(current_year-birth_year)-1;
+    printf("age in year:%d\n",age_year);
+    month=(12-birth_month)+current_month;
+    printf("age in month:%d\n",month);
+    return 0;
+	}
+	else
+	{
+	age_year=current_year-birth_year;
+	printf("age in year:%d\n",age_year);
+	month=current_month-birth_month;
+	printf("age in month:%d\n",month);
+	}
 }
