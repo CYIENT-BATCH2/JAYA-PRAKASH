@@ -1,5 +1,0 @@
-        1)Taken the input of a mobile number as user.
-	2)We want separate each number so only we can add.
-	3)We find remainder of each digit untill the remainder became zero.
-	4)We should add the remainder with sum untill the condition became false.
-	5)Print the sum of value
