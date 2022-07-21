@@ -1,0 +1,19 @@
+// find out the given traingle is perfect traingle or not ( run time )
+// here perfect traingle mean if we add all 3 sides of traingle it have to get 180 then it called perfect traingle
+
+#include<stdio.h>
+int main()
+{
+ int a, b , c ,sum;
+ scanf("%d%d%d",&a,&b,&c);
+ sum=a+b+c;
+ if(sum==180)
+ {
+     printf("perfect traingle");
+ }
+ else
+ {
+     printf("not perfect traingle");
+ }
+}
+
