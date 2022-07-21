@@ -1,0 +1,26 @@
+// find small and largest elements in array
+#include<stdio.h>
+int main()
+{
+    int a[7]={1,2,3,4,5,6,7};
+    int large,small,i;
+    large=a[0];
+    for(i=1;i<7;i++)
+    {
+         if (a[i]>large)
+            {
+                large=a[i];
+            }
+    } 
+    printf("largest is:%d\n",large);
+    small=a[0];
+    for(i=1;i<7;i++)
+    {
+         if (a[i]<small)
+            {
+                small=a[i];
+            }
+    } 
+    printf("smallest is:%d",small);
+    
+}
