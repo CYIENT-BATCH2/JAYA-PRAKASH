@@ -1,0 +1,16 @@
+/*patterns */
+
+#include <stdio.h>
+
+int main()
+{
+   int i,j;
+   for(i=0;i<=5;i++)
+   {for(j=0;j<=i;j++)
+   
+   /*printf("%d",j); --- to display the numbers
+   printf("%d",i); ---to display repeated numbers in row*/
+   printf("*"); 
+   printf("\n");
+   }
+}
