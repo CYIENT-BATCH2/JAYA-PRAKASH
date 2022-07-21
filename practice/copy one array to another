@@ -1,0 +1,12 @@
+// copy the one array into another array
+#include<stdio.h>
+int main()
+{
+    int a[5]={1,2,20,30,40};
+    int b[5] , i;
+    for(i=0;i<5;i++){
+    b[i]=a[i];
+    printf("%d\n",b[i]);
+   
+    }
+}
