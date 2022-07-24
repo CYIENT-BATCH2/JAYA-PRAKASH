@@ -1,0 +1,30 @@
+#include<stdio.h>
+void main()
+{
+    int id,units,bill;
+  scanf("%d\n",&id);
+  scanf("%d\n",&units);
+  if(units>=0||units<=199)
+     {
+         bill=(units*1.20);
+  printf("%d",bill);
+     }
+     
+  else if(units>=200||units<=400)
+  {
+      bill=(units*1.50);
+  printf("%d",bill);
+  }
+  
+  else if(units>=400||units<=600)
+  {
+  bill=(units*1.80)+0.15;
+  printf("%d",bill);
+  }
+  
+  else if(units>=600)
+  {
+  bill=(units*2.00)+0.15;
+  printf("%d",bill);
+  }
+}
