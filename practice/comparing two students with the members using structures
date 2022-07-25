@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct student {
+    int roll;
+    char name[20];
+    int age;
+    float marks;
+};
+int main()
+{
+ struct student s1={1,"fgfg",25,55},s2={2,"jaya",28,65};
+ if ((s1.marks)>(s2.marks))
+ {
+     printf("marks of %s is high",s1.name);
+ }
+ else
+ {
+ printf("marks of %s is high",s2.name);
+}
+}
