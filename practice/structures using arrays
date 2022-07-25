@@ -1,0 +1,17 @@
+#include<stdio.h>
+struct student {
+    int roll;
+    char name[20];
+    int age;
+    float marks;
+};
+int main()
+{
+ struct student s[3];
+ printf("enter roll age marks:\n");
+ for (int i=0;i<3;i++)
+ scanf("%d %s %d %f",& s[i].roll,& s[i].name,& s[i].age,& s[i].marks);
+ printf("after assigning:\n");
+  for (int i=0;i<3;i++)
+ printf("employee[%d] %d %s %d %f\n",i,s[i].roll,s[i].name,s[i].age,s[i].marks);
+}
